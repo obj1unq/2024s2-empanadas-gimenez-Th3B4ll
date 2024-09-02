@@ -21,6 +21,7 @@ test "punto1: Finanzas de  galvan" {
    galvan.gastar(25000)
    assert.equals(22000, galvan.deuda()) 	
    assert.equals(0, galvan.dinero()) 	
+   
 
    gimenez.pagarSueldo(galvan)   
    assert.equals(7000, galvan.deuda()) 	
