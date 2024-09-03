@@ -15,7 +15,7 @@ object galvan {
     method gastar(cuanto) { 
         saldo -= cuanto       
     }
-    method dueda() {
+    method deuda() {
         return saldo.min(0).abs()
         //return if (saldo <0) saldo else 0
     }
